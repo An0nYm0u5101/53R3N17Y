@@ -27,4 +27,5 @@ banner = c + """
    __'.___.'__
  ´   `  |° ´ Y `
   abaykandotcom
+  [Optimized for termux by T4P4N]
 """ + w

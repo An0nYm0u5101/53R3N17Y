@@ -18,7 +18,9 @@ from sys     import argv
 import requests, json
 import optparse
 import os, re
-from lxml import html
+#from lxml
+#lxml is too hard to install in termux,And also it's not much required to run this!
+import html
 import sys
 
 ################################  Banner   ################################

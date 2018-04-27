@@ -49,40 +49,24 @@ Options:
     -a, --all     All Things at Once!
 </pre>
 ## Operating Systems Tested
-- OSX El Capitan 10.11
-- Ubuntu 16.04
-- Backbox 5
-- Kali Linux 2018.1
+- Termux[Android]
 
 ## Output
 See the output, <a href="https://gist.githubusercontent.com/abaykan/921fe6b643a2bbcbd32d6e14f1678e6d/raw/1b4aba81d775694c941e60a2503b4c1ce2d2fb20/53R3N17Y.txt">here</a>.
 
-## Install
-### MacOSX
+## Installation
+## Termux
 
-Perform the following steps as `root`.
-
-```bash
-git clone https://github.com/abaykan/53R3N17Y.git /usr/local/share/serenity
-> echo 'alias serenity="/usr/local/share/serenity && ./serenity"' > ~/.zshrc
-cd /usr/local/share/serenity
-pip install -r requirements.txt
-serenity -h
-```
-
-### Linux
-
-Perform the following steps as `root`.
+Perform the following steps:
 
 ```bash
 git clone https://github.com/abaykan/53R3N17Y.git /usr/local/share/serenity
->echo 'alias serenity="/usr/local/share/serenity && ./serenity"' > ~/.bashrc
-cd /usr/local/share/serenity
-pip install -r requirements.txt
-serenity -h
+apt install python2
+pip2 install -r requirements.txt
+python2 serenity -h
 ```
   
-Note: Tested with Python 2.7.14
+Note: Tested with only Python2
 
 # Media Review
 - kitploit.com: <a href="https://www.kitploit.com/2018/03/53r3n17y-python-based-script-for.html">https://www.kitploit.com/2018/03/53r3n17y-python-based-script-for.html</a><br>
